@@ -62,7 +62,7 @@ const EnvelopeOpen = ({ config, onContinue }) => {
           whileTap={{ scale: 0.97 }}
           className="absolute inset-x-6 top-6 bottom-6 bg-cream rounded-sm shadow-xl border border-navy/10 flex flex-col items-center justify-center px-4 focus-visible:outline-none cursor-pointer"
         >
-          <h2 className="font-script text-2xl sm:text-3xl text-navy whitespace-pre-line leading-tight pointer-events-none">
+          <h2 className="font-serif font-semibold text-2xl sm:text-3xl text-navy whitespace-pre-line leading-tight pointer-events-none">
             {config.envelopeOpen.heading}
           </h2>
         </motion.button>
@@ -75,7 +75,7 @@ const EnvelopeOpen = ({ config, onContinue }) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.1, duration: 0.6 }}
         // أضفنا تأثيرات عند مرور الماوس (hover:text-navy) للإشارة إلى أنه قابل للضغط
-        className="italic text-navy/70 text-sm sm:text-base z-20 cursor-pointer hover:text-navy transition-colors focus-visible:outline-none"
+        className="font-serif text-navy/70 text-sm sm:text-base z-20 cursor-pointer hover:text-navy transition-colors focus-visible:outline-none"
       >
         {config.envelopeOpen.subtext || 'tap on the letter for more'}
       </motion.button>

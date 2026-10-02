@@ -27,7 +27,7 @@ const LetterPage = ({ config, onNext, onBack }) => {
 
       {/* Left: text */}
       <div className="flex-1 text-left order-2 lg:order-1 z-10 w-full">
-        <h2 className="font-script text-4xl sm:text-5xl text-navy mb-2">{letter.heading}</h2>
+        <h2 className="font-serif font-semibold text-4xl sm:text-5xl text-navy mb-2">{letter.heading}</h2>
 
         <h3 dir="rtl" className="font-arabic-display text-right text-3xl sm:text-4xl text-navy mb-5">
           {letter.recipientName}

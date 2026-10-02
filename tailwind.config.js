@@ -18,8 +18,6 @@ export default {
       fontFamily: {
         // Body / letter copy
         serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        // Headings / signature script
-        script: ['"Dancing Script"', 'cursive'],
       },
       boxShadow: {
         polaroid: '0 10px 25px -5px rgba(27, 42, 74, 0.25), 0 8px 10px -6px rgba(27, 42, 74, 0.15)',

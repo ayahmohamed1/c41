@@ -77,7 +77,7 @@ const FinalPage = ({ config, onRestart }) => {
         <p className="font-serif text-2xl sm:text-3xl text-[#0d162a] tracking-wide mb-0">
           {finale.heading || 'Happy'}
         </p>
-        <h1 className="font-script text-6xl sm:text-7xl text-[#0d162a] leading-tight -mt-4">
+        <h1 className="font-serif font-semibold text-6xl sm:text-7xl text-[#0d162a] leading-tight -mt-4">
           {finale.headingScript || 'Birthday'}
         </h1>
       </motion.div>
